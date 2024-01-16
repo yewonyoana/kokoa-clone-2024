@@ -1,0 +1,20 @@
+.header-tab {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-tab__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+}
+
+.header-tab__icon span {
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+.header-tab__icon:hover {
+	cursor: pointer;
+}

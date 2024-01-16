@@ -1,5 +1,6 @@
 .welcome-header {
-	margin: 90px 0px;
+	padding: 150px 0px;
+	box-sizing: border-box;
 	display: flex;
 	text-align: center;
 	flex-direction: column;
@@ -30,12 +31,12 @@
 }
 
 #login-form input:not([type="submit"]) {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid var(--washed-black);
 	transition: border-color 0.5 ease-in-out;
 }
 
 #login-form input::placeholder {
-	color: rgba(0, 0, 0, 0.2);
+	color: var(--washed-black);
 }
 
 #login-form input:focus {

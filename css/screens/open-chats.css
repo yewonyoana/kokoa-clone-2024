@@ -1,0 +1,168 @@
+.open-chat-container {
+	background-color: var(--darker-black);
+}
+
+.open-chat__icon {
+	width: 80px;
+	border: 1px solid var(--washed-white);
+	background-color: var(--darker-black);
+	border-radius: 20px;
+}
+
+.open-chat-room__btn,
+.current-chat__btn,
+.trending__btn {
+	width: auto;
+	border-radius: 20px;
+	padding: 10px;
+	border: 1px solid var(--washed-white);
+	background-color: var(--darker-black);
+	text-align: center;
+}
+
+.open-chat-room__btn,
+.current-chat__subtitle,
+.current-chat__btn,
+.playlist__text span,
+.playlist__comment,
+.trending__btn {
+	font-size: 13px;
+}
+
+.open-chat-room {
+	margin: 15px 0px;
+}
+
+.open-chat-room {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-top: var(--main-border);
+	border-bottom: var(--main-border);
+}
+
+.open-chat-room__text {
+	font-weight: 600;
+}
+
+.open-chat-room__btn {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.current-chat {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.current-chat__data {
+	display: flex;
+	align-items: center;
+}
+
+.current-chat__img {
+	width: 60px;
+	height: 60px;
+	border-radius: 25px;
+	margin-right: 10px;
+}
+
+.current-chat__subtitle,
+.current-chat__stats {
+	margin-top: 3px;
+}
+
+.current-chat__subtitle,
+.current-chat__stats,
+.playlist__header span:last-child,
+.playlist__text-name,
+.playlist__text-time {
+	color: var(--washed-white);
+}
+
+.current-chat__stats,
+.playlist__header span:last-child,
+.playlist__text span:last-child {
+	font-size: 10px;
+}
+
+.current-chat__btn {
+	width: 30px;
+}
+
+.playlist {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--darker-black);
+	border-radius: 15px;
+}
+
+.playlist__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 50px;
+	border-bottom: var(--main-border);
+}
+
+.playlist__texts {
+	display: flex;
+	flex-direction: column;
+	height: 140px;
+	margin: 10px 0px;
+}
+
+.playlist__text {
+	margin-bottom: 5px;
+}
+
+.playlist__text-name {
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.playlist__comment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.playlist__btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 95%;
+	height: 30px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: var(--washed-white);
+}
+
+.trending__btns {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.trending__btn {
+	width: auto;
+	margin: 0px 8px 8px 0px;
+}
+
+.trending__btn:first-child,
+.trending__btn:nth-child(7),
+.trending__btn:last-child {
+	border-color: skyblue;
+}
+
+.open-chat-room__btn:hover,
+.current-chat__btn:hover,
+.trending__btn:hover {
+	cursor: pointer;
+}
