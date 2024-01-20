@@ -1,8 +1,11 @@
 :root {
-	--yellow: #fae100;
 	--horizontal-space: 25px;
-	--washed-white: rgba(255, 255, 255, 0.6);
-	--washed-black: rgba(0, 0, 0, 0.1);
+	--washed-white: rgba(255, 255, 255, 0.5);
+	--washed-black: rgba(0, 0, 0, 0.2);
 	--darker-black: rgba(0, 0, 0, 0.5);
+	--blue: #031d46;
 	--main-border: 1px solid var(--washed-white);
+	--medium: 15px;
+	--small: 13px;
+	--xsmall: 10px;
 }

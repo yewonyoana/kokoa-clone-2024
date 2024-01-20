@@ -1,4 +1,4 @@
-.badge {
+.badge__alert {
 	background-color: tomato;
 	width: 25px;
 	height: 25px;
@@ -8,4 +8,22 @@
 	align-items: center;
 	color: white;
 	font-weight: 600;
+}
+
+.badge__alert-sm {
+	width: 18px;
+	height: 18px;
+	font-size: var(--xsmall);
+}
+
+.badge__tag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: max-content;
+	padding: 10px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: var(--washed-black);
+	font-size: var(--xsmall);
 }

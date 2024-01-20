@@ -1,6 +1,10 @@
 .header-tab {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 90%;
+	top: 100px;
 }
 
 .header-tab__icon {
@@ -11,10 +15,15 @@
 }
 
 .header-tab__icon span {
-	font-size: 13px;
+	font-size: var(--small);
 	margin-left: 5px;
 }
 
 .header-tab__icon:hover {
 	cursor: pointer;
+}
+
+.header__alert {
+	top: 45px;
+	left: 575px;
 }

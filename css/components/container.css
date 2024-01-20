@@ -1,24 +1,24 @@
-.current-container {
+.container {
 	border-radius: 15px;
-	padding: 15px;
+	padding: 20px;
 	margin-bottom: 15px;
 }
 
-.current-container__header {
+.container__header {
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
-.current-container__btn {
+.container__btn {
 	margin-top: 15px;
 	color: var(--washed-white);
 	text-align: center;
 	font-size: 13px;
 }
-.current-container__btn span {
+.container__btn span {
 	margin-right: 5px;
 }
 
-.current-container__btn:hover {
+.container__btn:hover {
 	cursor: pointer;
 }

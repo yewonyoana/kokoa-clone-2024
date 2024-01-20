@@ -1,0 +1,13 @@
+.chat__btn {
+	width: max-content;
+	padding: 10px 15px;
+	border-radius: 20px;
+	border: 1px solid var(--washed-white);
+	background-color: var(--darker-black);
+	text-align: center;
+	font-size: var(--small);
+}
+
+.chat__btn:hover {
+	border-color: skyblue;
+}

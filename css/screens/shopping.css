@@ -1,10 +1,262 @@
+.live-promo,
+.shopping-container__promo-img {
+	width: 235px;
+	height: 400px;
+	border-radius: 20px;
+}
+
+.live-promo__title,
+.shopping-container__promo-price span:first-child,
+.shopping-container__footer-page span:first-child {
+	font-weight: 600;
+}
+
+.live-promo__texts,
+.live-promo__titles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.live-promo__subtitle,
+.shopping-search span,
+.shopping-container__subtext,
+.shopping-container__promo-data,
+.shopping-container__footer {
+	font-size: var(--small);
+}
+
+.shopping-search,
+.shopping-container__subtext,
+.shopping-container__footer {
+	color: var(--washed-white);
+}
+
+.live-promo,
+.shopping-container__subtext span,
+.shopping-container__promo,
+.shopping-container__footer i {
+	cursor: pointer;
+}
+
+.shopping-tab__home {
+	font-weight: 600;
+}
+
 .live-promos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin-top: 15px;
 }
 
 .live-promo {
+	color: black;
+	border: 1px solid transparent;
+}
+
+.live-promo:hover,
+.shopping-container__promo-img:hover {
+	border: 1px solid skyblue;
+}
+
+.live-promo__tag i {
+	margin-right: 3px;
+}
+
+.live-promo__texts {
+	height: 90%;
+	padding: 15px;
+}
+
+.live-promo__titles {
+	margin-bottom: -30px;
+}
+
+.live-promo__title {
+	margin-bottom: 5px;
+}
+
+.live-promo:first-child {
+	background: center/cover no-repeat url(/images/10.jpeg);
+}
+
+.live-promo:last-child {
+	background: center/cover no-repeat url(/images/11.jpeg);
+}
+
+.shopping-services {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.shopping-service {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+
+.shopping-service i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: white;
+	color: var(--blue);
+	margin-bottom: 10px;
+}
+
+.shopping-service span {
+	font-size: var(--small);
+	color: var(--washed-white);
+}
+
+.shopping-search__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shopping-search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 80%;
+	background-color: var(--darker-black);
+	border-radius: 25px;
+}
+
+.shopping-search i {
+	margin-right: 3px;
+}
+
+.shopping-search input {
 	width: 40%;
-	height: 300px;
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.shopping-search input,
+.shopping-search input::placeholder {
+	text-align: center;
+}
+
+.shopping-container {
+	background-color: var(--darker-black);
+}
+
+.shopping-container__text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shopping-container__subtext {
+	font-weight: normal;
+}
+
+.shopping-container__promos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shopping-container__promo {
+	height: 220px;
+	margin-bottom: 10px;
+}
+
+.shopping-container__promo-img {
+	height: 150px;
 	border-radius: 20px;
 	border: 1px solid black;
+}
+
+.shopping-container__promo-img span {
+	margin: 8px 0px 0px 8px;
+}
+
+.promo-one {
+	background: center/cover no-repeat url("/images/12.jpeg");
+}
+
+.promo-two {
+	background: center/cover no-repeat url("/images/13.jpeg");
+}
+
+.promo-three {
+	background: center/cover no-repeat url("/images/14.jpeg");
+}
+
+.promo-four {
+	background: center/cover no-repeat url("/images/15.jpeg");
+}
+
+.shopping-container__promo-data {
+	width: 90%;
+	padding: 10px;
+	line-height: 15px;
+}
+
+.shopping-container__promo-title {
+	height: 50px;
+}
+
+.shopping-container__promo-price {
+	margin-top: 8px;
+}
+
+.shopping-container__promo-price span:first-child {
+	color: skyblue;
+}
+
+.shopping-container__footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shopping-container__footer i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 25px;
+	border-radius: 10px;
+	border: var(--main-border);
+}
+
+.shopping-container__footer i:hover {
+	background-color: white;
+	color: var(--blue);
+}
+
+.shopping-container__footer-page span:first-child {
+	color: white;
+}
+
+@keyframes heartBeat {
+	0% {
+		color: black;
+		transform: none;
+	}
+	50% {
+		color: red;
+		transform: scale(1.5);
+	}
+	100% {
+		color: black;
+		transform: none;
+	}
+}
+
+.live-promo__tag:hover i {
+	will-change: transform;
+	animation: heartBeat 1s linear infinite;
 }

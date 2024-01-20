@@ -27,31 +27,31 @@
 			</div>
 		</header>
 
-		<main class="main-screen">
+		<main class="main-screen open-chat-screen">
 			<div class="header-tab">
-				<div class="header-tab__icon open-chat__icon">
-					<i class="fa-solid fa-magnifying-glass fa-xs"></i>
+				<div class="header-tab__icon chat__btn">
+					<i class="fa-solid fa-magnifying-glass"></i>
 					<span>Search</span>
 				</div>
-				<div class="header-tab__icon open-chat__icon">
-					<i class="fa-regular fa-comment-dots fa-xs"></i>
+				<div class="header-tab__icon header-tab__icon-selected chat__btn">
+					<i class="fa-regular fa-comment-dots"></i>
 					<span>My Chats</span>
 				</div>
-				<div class="header-tab__icon open-chat__icon">
-					<i class="fa-solid fa-location-dot fa-xs"></i>
+				<div class="header-tab__icon chat__btn">
+					<i class="fa-solid fa-location-dot"></i>
 					<span>My Place</span>
 				</div>
-				<div class="header-tab__icon open-chat__icon">
-					<i class="fa-solid fa-fire fa-xs"></i>
+				<div class="header-tab__icon chat__btn">
+					<i class="fa-solid fa-fire"></i>
 					<span>Trending</span>
 				</div>
 			</div>
 			<div class="open-chat-room">
 				<span class="open-chat-room__text">You are not in any open chats.</span>
-				<div class="open-chat-room__btn">Create</div>
+				<div class="open-chat-room__btn chat__btn">Create</div>
 			</div>
-			<div class="current-container open-chat-container">
-				<div class="current-container__header">
+			<div class="container open-chat-container">
+				<div class="container__header">
 					<span>그대들은 새해를 어떻게 살 것인가</span>
 				</div>
 				<div class="current-chat">
@@ -65,7 +65,7 @@
 							<h6 class="current-chat__stats">1,043 members</h6>
 						</div>
 					</div>
-					<div class="current-chat__btn">Join</div>
+					<div class="current-chat__btn chat__btn">Join</div>
 				</div>
 				<div class="current-chat">
 					<div class="current-chat__data">
@@ -80,7 +80,7 @@
 							<h6 class="current-chat__stats">96 members</h6>
 						</div>
 					</div>
-					<div class="current-chat__btn">Join</div>
+					<div class="current-chat__btn chat__btn">Join</div>
 				</div>
 				<div class="current-chat">
 					<div class="current-chat__data">
@@ -93,7 +93,7 @@
 							<h6 class="current-chat__stats">157 members</h6>
 						</div>
 					</div>
-					<div class="current-chat__btn">Join</div>
+					<div class="current-chat__btn chat__btn">Join</div>
 				</div>
 				<div class="current-chat">
 					<div class="current-chat__data">
@@ -108,7 +108,7 @@
 							<h6 class="current-chat__stats">333 members</h6>
 						</div>
 					</div>
-					<div class="current-chat__btn">Join</div>
+					<div class="current-chat__btn chat__btn">Join</div>
 				</div>
 				<div class="current-chat">
 					<div class="current-chat__data">
@@ -121,15 +121,15 @@
 							<h6 class="current-chat__stats">100,000 members</h6>
 						</div>
 					</div>
-					<div class="current-chat__btn">Join</div>
+					<div class="current-chat__btn chat__btn">Join</div>
 				</div>
-				<div class="current-container__btn">
+				<div class="container__btn">
 					<span>More Options</span>
 					<i class="fa-solid fa-chevron-right fa-xs"></i>
 				</div>
 			</div>
-			<div class="current-container open-chat-container">
-				<div class="current-container__header">
+			<div class="container open-chat-container">
+				<div class="container__header">
 					<span>나를 위한 오픈채팅</span>
 				</div>
 				<div class="playlist">
@@ -160,7 +160,7 @@
 						</div>
 						<div class="playlist__text">
 							<span class="playlist__text-name">겨울바람때문에</span>
-							<span class="playlist__text-song">Don't Go - ちゃんみな</span>
+							<span class="playlist__text-song">Biscuit - ちゃんみな</span>
 							<span class="playlist__text-time">30 mins ago</span>
 						</div>
 						<div class="playlist__text">
@@ -169,75 +169,79 @@
 							<span class="playlist__text-time">12 mins ago</span>
 						</div>
 					</div>
-					<div class="playlist__comment">
-						<div class="playlist__btn">
-							<span class="playlist__btn-text">Add Comment</span>
-							<i class="fa-solid fa-plus"></i>
-						</div>
-					</div>
+					<form class="playlist__comment">
+						<input type="text" placeholder="Add Comment" />
+						<button class="playlist__comment-btn">
+							<i class="fa-solid fa-arrow-up"></i>
+						</button>
+					</form>
 				</div>
 			</div>
-			<div class="current-container open-chat-container">
-				<div class="current-container__header">
+			<div class="container open-chat-container">
+				<div class="container__header">
 					<span>지금 뜨고 있는 오픈채팅</span>
 				</div>
 				<div class="trending">
 					<div class="trending__btns">
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>노마드코더</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>프론트엔드</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>백엔드</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>AI</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>ChatGPT</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>웹기초반</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
-							<span>아시안컵</span>
+							<span>LCK</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
-							<span>이강인</span>
+							<span>T1</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
-							<span>손흥민</span>
+							<span>LoL</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
+							<span>#</span>
+							<span>Faker</span>
+						</div>
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>집사의삶</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>츄르값</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>고양이언어</span>
 						</div>
-						<div class="trending__btn">
+						<div class="trending__btn chat__btn">
 							<span>#</span>
 							<span>주인님이기는법</span>
 						</div>
 					</div>
 				</div>
-				<div class="current-container__btn">
+				<div class="container__btn">
 					<span>See More</span>
 					<i class="fa-solid fa-chevron-right fa-xs"></i>
 				</div>
@@ -253,7 +257,7 @@
 				</li>
 				<li class="nav__btn">
 					<a class="nav__link" href="chats.html">
-						<span class="nav__notification badge">1</span>
+						<span class="nav__notification badge__alert">7</span>
 						<i class="fa-regular fa-comment fa-2x"></i>
 					</a>
 				</li>
@@ -276,6 +280,10 @@
 				</li>
 			</ul>
 		</nav>
+
+		<div id="no-mobile">
+			<span>Your screen is too small or too big :(</span>
+		</div>
 
 		<script
 			src="https://kit.fontawesome.com/d312695030.js"

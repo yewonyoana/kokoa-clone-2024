@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Open Chats - Kokoa Talk</title>
+		<title>Shopping - Kokoa Talk</title>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
@@ -19,20 +19,21 @@
 		</div>
 
 		<header class="screen-header">
-			<h1 class="screen-header__title">Open Chats</h1>
+			<h1 class="screen-header__title">Shopping</h1>
 			<div class="screen-header__icons">
-				<span><i class="fa-regular fa-hand-peace fa-lg"></i></span>
-				<span><i class="fa-regular fa-bookmark fa-lg"></i></span>
-				<span><i class="fa-solid fa-gear fa-lg"></i></span>
+				<span><i class="fa-solid fa-basket-shopping fa-lg"></i></span>
+				<span>
+					<a href="settings.html">
+						<div class="nav__alert header__alert"></div>
+						<i class="fa-solid fa-gear fa-lg"></i>
+					</a>
+				</span>
 			</div>
-		</header>
-
-		<main class="main-screen">
 			<div class="header-tab">
 				<div class="header-tab__icon">
 					<span>My Store</span>
 				</div>
-				<div class="header-tab__icon">
+				<div class="header-tab__icon shopping-tab__home">
 					<span>Home</span>
 				</div>
 				<div class="header-tab__icon">
@@ -45,24 +46,71 @@
 					<span>Live</span>
 				</div>
 			</div>
-			<div class="current-container live-promos">
+		</header>
+
+		<main class="main-screen shopping-screen">
+			<div class="container live-promos">
 				<div class="live-promo">
-					<div class="live-promo__tag">쿠폰 증정</div>
-					<span class="live-promo__title">올해 설날은 넉넉 살 찌울 준비</span>
-					<span class="live-promo__subtitle">10% 할인 쿠폰 증정</span>
+					<div class="live-promo__texts">
+						<div class="live-promo__tag badge__tag">
+							<i class="fa-solid fa-heart"></i>
+							<span>132,584</span>
+						</div>
+						<div class="live-promo__titles">
+							<span class="live-promo__title">
+								올해 설은 넉넉히 살 찌울 준비
+							</span>
+							<span class="live-promo__subtitle">10% 할인 쿠폰 증정</span>
+						</div>
+					</div>
 				</div>
 				<div class="live-promo">
-					<div class="live-promo__tag">기획전</div>
-					<span class="live-promo__title">새해 다이어트는 내일부터</span>
-					<span class="live-promo__subtitle">최대 63% 할인</span>
+					<div class="live-promo__texts">
+						<div class="live-promo__tag badge__tag">
+							<i class="fa-solid fa-heart"></i>
+							<span>5,084</span>
+						</div>
+						<div class="live-promo__titles">
+							<span class="live-promo__title">다이어트는 언제나 내일부터</span>
+							<span class="live-promo__subtitle">최대 63% 할인</span>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="current-container shopping-search">
-				<i class="fa-solid fa-magnifying-glass"></i>
-				<span>찾으시는 상품으로 쇼핑 검색</span>
+			<div class="container shopping-services">
+				<div class="shopping-service">
+					<i class="fa-solid fa-gift fa-lg"></i>
+					<span>Gifts</span>
+				</div>
+				<div class="shopping-service">
+					<i class="fa-solid fa-store fa-lg"></i>
+					<span>Shopping</span>
+				</div>
+				<div class="shopping-service">
+					<i class="fa-solid fa-m fa-lg"></i>
+					<span>Makers</span>
+				</div>
+				<div class="shopping-service">
+					<i class="fa-solid fa-tower-broadcast fa-lg"></i>
+					<span>LIVE</span>
+				</div>
+				<div class="shopping-service">
+					<i class="fa-solid fa-vest-patches fa-lg"></i>
+					<span>Fashion</span>
+				</div>
+				<div class="shopping-service">
+					<i class="fa-regular fa-face-smile fa-lg"></i>
+					<span>Friends</span>
+				</div>
 			</div>
-			<div class="current-container shopping-container">
-				<div class="current-container__header shopping-container__text">
+			<div class="container shopping-search__container">
+				<form class="shopping-search">
+					<i class="fa-solid fa-magnifying-glass fa-xs"></i>
+					<input type="text" placeholder="찾으시는 상품으로 쇼핑 검색"
+				</form>
+			</div>
+			<div class="container shopping-container">
+				<div class="container__header shopping-container__text">
 					<span>따끈따끈 오늘 열린 신상 톡딜</span>
 					<div class="shopping-container__subtext">
 						<span> 바로가기 </span>
@@ -70,46 +118,71 @@
 					</div>
 				</div>
 				<div class="shopping-container__promos">
-					<div class="shopping-container__promo promo-one">
-						<div class="shooping-container__promo-orders">
-							<span>350명 주문중</span>
+					<div class="shopping-container__promo">
+						<div class="shopping-container__promo-img promo-one">
+							<span class="badge__tag">350명 주문중</span>
 						</div>
-						<span class="shopping-container__promo-title"></span>
-						<div class="shopping-container__promo-price">
-							<span>톡딜가</span>
-							<span>3,500원~</span>
-						</div>
-					</div>
-					<div class="shopping-container__promo promo-two">
-						<div class="shooping-container__promo-orders">
-							<span>350명 주문중</span>
-						</div>
-						<span class="shopping-container__promo-title"></span>
-						<div class="shopping-container__promo-price">
-							<span>톡딜가</span>
-							<span>3,500원~</span>
+						<div class="shopping-container__promo-data">
+							<span class="shopping-container__promo-title">
+								자급자족의 시대! 버섯도 키워서 먹자
+							</span>
+							<div class="shopping-container__promo-price">
+								<span>톡딜가</span>
+								<span>3,500원~</span>
+							</div>
 						</div>
 					</div>
-					<div class="shopping-container__promo promo-three">
-						<div class="shooping-container__promo-orders">
-							<span>350명 주문중</span>
+					<div class="shopping-container__promo">
+						<div class="shopping-container__promo-img promo-two">
+							<span class="badge__tag">777명 주문중</span>
 						</div>
-						<span class="shopping-container__promo-title"></span>
-						<div class="shopping-container__promo-price">
-							<span>톡딜가</span>
-							<span>3,500원~</span>
-						</div>
-					</div>
-					<div class="shopping-container__promo promo-four">
-						<div class="shooping-container__promo-orders">
-							<span>350명 주문중</span>
-						</div>
-						<span class="shopping-container__promo-title"></span>
-						<div class="shopping-container__promo-price">
-							<span>톡딜가</span>
-							<span>3,500원~</span>
+						<div class="shopping-container__promo-data">
+							<span class="shopping-container__promo-title">
+								이제는 우리가 치느님을 영접 할 시간
+							</span>
+							<div class="shopping-container__promo-price">
+								<span>톡딜가</span>
+								<span>8,500원~</span>
+							</div>
 						</div>
 					</div>
+					<div class="shopping-container__promo">
+						<div class="shopping-container__promo-img promo-three">
+							<span class="badge__tag">1,050명 주문중</span>
+						</div>
+						<div class="shopping-container__promo-data">
+							<span class="shopping-container__promo-title">
+								주인님을 위한 맞춤형 사료와 장난감
+							</span>
+							<div class="shopping-container__promo-price">
+								<span>톡딜가</span>
+								<span>1,500원~</span>
+							</div>
+						</div>
+					</div>
+					<div class="shopping-container__promo">
+						<div class="shopping-container__promo-img promo-four">
+							<span class="badge__tag">58명 주문중</span>
+						</div>
+						<div class="shopping-container__promo-data">
+							<span class="shopping-container__promo-title">
+								백설공주에 나온 바로 그 거울
+							</span>
+							<div class="shopping-container__promo-price">
+								<span>톡딜가</span>
+								<span>20,000원~</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="shopping-container__footer">
+					<i class="fa-solid fa-arrow-left"></i>
+					<div class="shopping-container__footer-page">
+						<span>1</span>
+						<span>/</span>
+						<span>14</span>
+					</div>
+					<i class="fa-solid fa-arrow-right"></i>
 				</div>
 			</div>
 		</main>
@@ -123,7 +196,7 @@
 				</li>
 				<li class="nav__btn">
 					<a class="nav__link" href="chats.html">
-						<span class="nav__notification badge">1</span>
+						<span class="nav__notification badge__alert">7</span>
 						<i class="fa-regular fa-comment fa-2x"></i>
 					</a>
 				</li>
@@ -146,6 +219,10 @@
 				</li>
 			</ul>
 		</nav>
+
+		<div id="no-mobile">
+			<span>Your screen is too small or too big :(</span>
+		</div>
 
 		<script
 			src="https://kit.fontawesome.com/d312695030.js"

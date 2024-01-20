@@ -1,0 +1,6 @@
+.ad {
+	display: flex;
+	justify-content: flex-end;
+	background-position: center;
+	background-size: cover;
+}

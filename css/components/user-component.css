@@ -1,11 +1,16 @@
 .user-component,
-.user-component__column:first-child {
+.user-component__column {
 	display: flex;
 	align-items: center;
 }
 
 .user-component {
 	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.user-component__column:first-child {
+	width: 100%;
 }
 
 .user-component__column:last-child {
@@ -34,6 +39,8 @@
 }
 
 .user-component__title {
+	display: flex;
+	align-items: center;
 	font-weight: 600;
 	font-size: 22px;
 }
@@ -42,13 +49,32 @@
 	font-weight: 400;
 }
 
+.user-component__title i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: var(--main-border);
+	font-size: 8px;
+	margin-left: 8px;
+}
+
 .user-component__subtitle {
 	margin-top: 8px;
 	color: var(--washed-white);
-	font-size: 17px;
+	font-size: var(--medium);
 }
 
 .user-component__time {
 	display: block;
 	margin-bottom: 10px;
+}
+
+.user-component__box {
+	width: 500rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
