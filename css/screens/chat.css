@@ -1,5 +1,5 @@
 #chat-screen {
-	background: top/cover no-repeat url("/kokoa-clone-2024/images/17.gif");
+	background: top/cover repeat url("/kokoa-clone-2024/images/17.gif");
 	background-size: cover;
 	height: 100vh;
 }
