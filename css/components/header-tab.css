@@ -2,9 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
-	width: 90%;
-	top: 100px;
+	width: 100%;
 }
 
 .header-tab__icon {
@@ -25,5 +23,5 @@
 
 .header__alert {
 	top: 45px;
-	left: 575px;
+	left: 590px;
 }

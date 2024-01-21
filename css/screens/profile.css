@@ -1,0 +1,22 @@
+#profile {
+	background: none;
+	background-color: var(--blue);
+}
+
+#profile-one {
+	background: top/cover url("/images/25.jpeg");
+}
+
+#profile-two {
+	background: none;
+	background-color: #f9787e;
+}
+
+#profile-three {
+	background: top/cover url("/images/26.gif");
+}
+
+#profile-four {
+	background: none;
+	background-color: #d6883e;
+}

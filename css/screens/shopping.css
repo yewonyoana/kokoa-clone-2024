@@ -28,7 +28,8 @@
 
 .shopping-search,
 .shopping-container__subtext,
-.shopping-container__footer {
+.shopping-container__footer,
+.shopping-search input::placeholder {
 	color: var(--washed-white);
 }
 
@@ -89,6 +90,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0px 20px;
 }
 
 .shopping-service {
@@ -119,6 +121,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 0px 20px;
 }
 
 .shopping-search {
@@ -126,7 +129,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 40px;
-	width: 80%;
+	width: 60%;
 	background-color: var(--darker-black);
 	border-radius: 25px;
 }

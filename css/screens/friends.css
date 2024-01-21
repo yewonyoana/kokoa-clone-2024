@@ -10,7 +10,6 @@
 #friends-display-link {
 	background-color: var(--washed-black);
 	padding: 15px 0px;
-	margin-top: 100px;
 	margin-bottom: 25px;
 	text-align: center;
 	display: block;
@@ -41,7 +40,7 @@
 
 @keyframes musicBeat {
 	0% {
-		color: black;
+		color: white;
 		transform: none;
 	}
 	50% {
@@ -49,7 +48,7 @@
 		transform: scale(1.5);
 	}
 	100% {
-		color: black;
+		color: white;
 		transform: none;
 	}
 }
@@ -68,7 +67,7 @@
 	animation: musicBeat 1.5s linear infinite;
 }
 
-/* @keyframes hideSplashScreen {
+@keyframes hideSplashScreen {
 	from {
 		opacity: 1;
 	}
@@ -89,6 +88,6 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 200px;
-	animation: hideSplashScreen 0.5s ease-in-out forwards;
-	animation-delay: 1s;
-} */
+	animation: hideSplashScreen 0.3s ease-in-out forwards;
+	animation-delay: 0.5s;
+}

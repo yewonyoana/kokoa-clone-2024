@@ -13,6 +13,7 @@
 @import "components/container.css";
 @import "components/chat-btn.css";
 @import "components/alt-screen-header.css";
+@import "components/profile-component.css";
 @import "components/ad.css";
 @import "components/no-mobile.css";
 
@@ -24,6 +25,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/profile.css";
 
 * {
 	box-sizing: border-box;
@@ -39,19 +41,21 @@ body {
 }
 
 .main-screen {
-	margin-top: 110px;
 	padding: 0px var(--horizontal-space);
 }
 
-.friends-screen,
-.setting-screen {
-	margin-top: 0;
+/* .friends-screen {
+	padding-top: 0;
 }
 
 .open-chat-screen {
-	margin-top: 160px;
+	padding-top: 160px;
 }
 
 .shopping-screen {
-	margin-top: 140px;
+	padding-top: 140px;
 }
+
+.setting-screen {
+	padding-top: 80px;
+} */
