@@ -20,8 +20,3 @@
 .header-tab__icon:hover {
 	cursor: pointer;
 }
-
-.header__alert {
-	top: 45px;
-	left: 590px;
-}

@@ -28,3 +28,12 @@
 .screen-header .fa-gear:hover {
 	animation: rotateGear 1s linear infinite;
 }
+
+.screen-header__alerts {
+	position: relative;
+}
+
+.screen-header__alert {
+	top: -3px;
+	left: 25px;
+}
