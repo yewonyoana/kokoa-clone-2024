@@ -79,11 +79,11 @@
 }
 
 .live-promo:first-child {
-	background: center/cover no-repeat url(/images/10.jpeg);
+	background: center/cover no-repeat url(/kokoa-clone-2024/images/10.jpeg);
 }
 
 .live-promo:last-child {
-	background: center/cover no-repeat url(/images/11.jpeg);
+	background: center/cover no-repeat url(/kokoa-clone-2024/images/11.jpeg);
 }
 
 .shopping-services {
@@ -186,19 +186,19 @@
 }
 
 .promo-one {
-	background: center/cover no-repeat url("/images/12.jpeg");
+	background: center/cover no-repeat url("/kokoa-clone-2024/images/12.jpeg");
 }
 
 .promo-two {
-	background: center/cover no-repeat url("/images/13.jpeg");
+	background: center/cover no-repeat url("/kokoa-clone-2024/images/13.jpeg");
 }
 
 .promo-three {
-	background: center/cover no-repeat url("/images/14.jpeg");
+	background: center/cover no-repeat url("/kokoa-clone-2024/images/14.jpeg");
 }
 
 .promo-four {
-	background: center/cover no-repeat url("/images/15.jpeg");
+	background: center/cover no-repeat url("/kokoa-clone-2024/images/15.jpeg");
 }
 
 .shopping-container__promo-data {

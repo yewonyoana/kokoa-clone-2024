@@ -1,5 +1,5 @@
 #chat-screen {
-	background: top/cover no-repeat url("/images/17.gif");
+	background: top/cover no-repeat url("/kokoa-clone-2024/images/17.gif");
 	background-size: cover;
 	height: 100vh;
 }
@@ -225,7 +225,7 @@
 
 .message__bubble-link__img {
 	height: 75%;
-	background: center/cover url("/images/23.jpeg");
+	background: center/cover url("/kokoa-clone-2024/images/23.jpeg");
 	border-radius: 10px;
 }
 
