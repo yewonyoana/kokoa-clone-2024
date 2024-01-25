@@ -86,3 +86,7 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+.user-component__blocked {
+	cursor: not-allowed;
+}
